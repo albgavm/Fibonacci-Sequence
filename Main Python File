@@ -1,0 +1,14 @@
+# Experiment adding code to a Repository
+
+A = 0
+B = 1
+
+#nth = loop number 
+nth = int(input("place # of Fib sequence"))
+
+while (nth != 0) :
+    C = A + B
+    print(A,"+",B,"=",C)
+    A = B
+    B = C
+    nth -= 1
